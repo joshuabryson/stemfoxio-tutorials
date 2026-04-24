@@ -5,5 +5,5 @@
 videos:
   - slug: protocols-4-5-delegates
     folder: "Protocols 4:5 - Delegates"
-    youtube: ""  # TODO: paste the YouTube URL for this video before pushing publicly
+    youtube: "https://youtu.be/ZnPrDwGJTl8"
     publish: true

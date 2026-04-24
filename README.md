@@ -13,7 +13,7 @@ git clone https://github.com/joshuabryson/stemfoxio-tutorials.git
 
 | Video | Code | Watch |
 | --- | --- | --- |
-| Protocols 4:5 - Delegates | [`protocols-4-5-delegates/`](./protocols-4-5-delegates) | — |
+| Protocols 4:5 - Delegates | [`protocols-4-5-delegates/`](./protocols-4-5-delegates) | [YouTube](https://youtu.be/ZnPrDwGJTl8) |
 
 
 ## License
