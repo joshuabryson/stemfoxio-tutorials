@@ -1,0 +1,9 @@
+# Manifest for StemFoxIO tutorials repo.
+# Each entry maps a public `slug` to the StemFoxIO workspace folder name and YouTube URL.
+# Only entries with `publish: true` appear in the top-level README index.
+
+videos:
+  - slug: protocols-4-5-delegates
+    folder: "Protocols 4:5 - Delegates"
+    youtube: ""  # TODO: paste the YouTube URL for this video before pushing publicly
+    publish: true
