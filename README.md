@@ -14,6 +14,7 @@ git clone https://github.com/joshuabryson/stemfoxio-tutorials.git
 | Video | Code | Watch |
 | --- | --- | --- |
 | Protocols 4:5 - Delegates | [`protocols-4-5-delegates/`](./protocols-4-5-delegates) | [YouTube](https://youtu.be/ZnPrDwGJTl8) |
+| Protocols 5:5 - Associated Types | [`protocols-5-5-associated-types/`](./protocols-5-5-associated-types) | [YouTube](https://youtu.be/FfwKXOhRn7Y) |
 
 
 ## License

@@ -7,3 +7,7 @@ videos:
     folder: "Protocols 4:5 - Delegates"
     youtube: "https://youtu.be/ZnPrDwGJTl8"
     publish: true
+  - slug: protocols-5-5-associated-types
+    folder: "Protocols 5:5 - Associated Types"
+    youtube: "https://youtu.be/FfwKXOhRn7Y"
+    publish: true
