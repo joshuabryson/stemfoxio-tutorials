@@ -15,7 +15,7 @@ git clone https://github.com/joshuabryson/stemfoxio-tutorials.git
 | --- | --- | --- |
 | Protocols 4:5 - Delegates | [`protocols-4-5-delegates/`](./protocols-4-5-delegates) | [YouTube](https://youtu.be/ZnPrDwGJTl8) |
 | Protocols 5:5 - Associated Types | [`protocols-5-5-associated-types/`](./protocols-5-5-associated-types) | [YouTube](https://youtu.be/FfwKXOhRn7Y) |
-| Patterns 1 - Strategy | [`patterns-1-strategy/`](./patterns-1-strategy) | — |
+| Patterns 1 - Strategy | [`patterns-1-strategy/`](./patterns-1-strategy) | [YouTube](https://youtu.be/Chh7wyGUtYs) |
 
 
 ## License
