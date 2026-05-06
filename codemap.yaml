@@ -11,3 +11,7 @@ videos:
     folder: "Protocols 5:5 - Associated Types"
     youtube: "https://youtu.be/FfwKXOhRn7Y"
     publish: true
+  - slug: patterns-1-strategy
+    folder: "Patterns 1 - Strategy"
+    youtube: ""
+    publish: true
