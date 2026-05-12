@@ -1,0 +1,59 @@
+{
+  "identifier" : "F0X57E72-0001-0001-0001-000000000001",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "F0X10001",
+      "localizations" : [
+        {
+          "description" : "Build unlimited X-Men teams and save your lineups.",
+          "displayName" : "X-Men Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.stemfoxio.StoreKit2Mistakes.unlockPro",
+      "referenceName" : "X-Men Pro (One-time)",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_storefront" : "USA",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "F0X20001-0001-0001-0001-000000000001",
+      "localizations" : [],
+      "name" : "Memberships",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "F0X20001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "AI-powered hero pairing suggestions and advanced team stats.",
+              "displayName" : "Charles Xavier's Membership",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.stemfoxio.StoreKit2Mistakes.proMonthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Charles Xavier's Membership (Monthly)",
+          "subscriptionGroupID" : "F0X20001-0001-0001-0001-000000000001",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

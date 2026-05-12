@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playground version='5.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='1 - Break It'/>
+        <page name='2 - Fix with some'/>
+        <page name='3 - Fix with any'/>
+        <page name='4 - Side-by-Side'/>
+    </pages>
+</playground>
