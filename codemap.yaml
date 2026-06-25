@@ -31,3 +31,11 @@ videos:
     folder: "StoreKit 2 4-4 - RevenueCat or Raw"
     youtube: ""
     publish: false
+  - slug: storekit-2-claude-prompt
+    folder: "StoreKit 2 5-5 - Claude Prompt for Working IAP"
+    youtube: ""
+    publish: false
+  - slug: neovim-ios-setup
+    folder: "NeoVim iOS Setup"
+    youtube: "https://youtu.be/ySoSezPbcTI"
+    publish: true

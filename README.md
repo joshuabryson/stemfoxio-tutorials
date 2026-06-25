@@ -18,6 +18,7 @@ git clone https://github.com/joshuabryson/stemfoxio-tutorials.git
 | Patterns 1 - Strategy | [`patterns-1-strategy/`](./patterns-1-strategy) | [YouTube](https://youtu.be/Chh7wyGUtYs) |
 | StoreKit 2 1-4 - 3 Mistakes Apple Rejects | [`storekit-2-three-mistakes/`](./storekit-2-three-mistakes) | [YouTube](https://youtu.be/EPJAW4AZamY) |
 | StoreKit 2 2-4 - StoreKit Files | [`storekit-2-storekit-files/`](./storekit-2-storekit-files) | [YouTube](https://youtu.be/G9mNaKpChog) |
+| NeoVim iOS Setup | [`neovim-ios-setup/`](./neovim-ios-setup) | [YouTube](https://youtu.be/ySoSezPbcTI) |
 
 
 ## License

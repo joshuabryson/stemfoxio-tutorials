@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neovim for iOS — Cheat Sheet</title>
+<style>
+  :root { --bg:#1a1a2e; --panel:#23233a; --fg:#e8e6d9; --accent:#e3b341; --muted:#9a98b0; --key:#2d2d44; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, "JetBrains Mono", ui-monospace, monospace; background:var(--bg); color:var(--fg); line-height:1.5; padding:2rem; }
+  h1 { color:var(--accent); margin:0 0 .25rem; font-size:1.6rem; }
+  .sub { color:var(--muted); margin:0 0 1.5rem; font-size:.9rem; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(320px,1fr)); gap:1rem; }
+  .card { background:var(--panel); border:1px solid #34344f; border-radius:10px; padding:1rem 1.2rem; }
+  .card h2 { color:var(--accent); font-size:1rem; margin:0 0 .75rem; border-bottom:1px solid #34344f; padding-bottom:.4rem; }
+  table { width:100%; border-collapse:collapse; }
+  td { padding:.28rem 0; vertical-align:top; font-size:.88rem; }
+  td.k { white-space:nowrap; padding-right:.9rem; }
+  kbd { background:var(--key); border:1px solid #44446a; border-bottom-width:2px; border-radius:5px; padding:.08rem .42rem; font-size:.82rem; color:#fff; }
+  .desc { color:var(--fg); }
+  footer { margin-top:2rem; color:var(--muted); font-size:.8rem; }
+  a { color:var(--accent); }
+  .note { color:var(--muted); font-size:.78rem; margin-top:.5rem; }
+</style>
+</head>
+<body>
+  <h1>Neovim for iOS — Cheat Sheet</h1>
+  <p class="sub">Leader key = <kbd>Space</kbd>. Bindings shown in the video setup (xcodebuild.nvim + telescope + LSP). Yours may differ — ask Claude what it wired up.</p>
+
+  <div class="grid">
+
+    <div class="card">
+      <h2>Build · Run · Test (xcodebuild.nvim)</h2>
+      <table>
+        <tr><td class="k"><kbd>Space</kbd> <kbd>x</kbd></td><td class="desc">Open the Xcode actions menu</td></tr>
+        <tr><td class="k"><kbd>Space</kbd> <kbd>x</kbd> <kbd>b</kbd></td><td class="desc">Build the project</td></tr>
+        <tr><td class="k"><kbd>Space</kbd> <kbd>x</kbd> <kbd>r</kbd></td><td class="desc">Build &amp; run</td></tr>
+        <tr><td class="k"><kbd>Space</kbd> <kbd>x</kbd> <kbd>t</kbd></td><td class="desc">Run tests (on the selected simulator)</td></tr>
+        <tr><td class="k"><kbd>Space</kbd> <kbd>x</kbd> <kbd>s</kbd></td><td class="desc">Select / show scheme</td></tr>
+        <tr><td class="k"><kbd>Space</kbd> <kbd>x</kbd> <kbd>d</kbd></td><td class="desc">Select device / destination</td></tr>
+      </table>
+      <p class="note">First run? Do the one-time project setup (scheme + workspace + device) when prompted.</p>
+    </div>
+
+    <div class="card">
+      <h2>Find &amp; Navigate (telescope)</h2>
+      <table>
+        <tr><td class="k"><kbd>Space</kbd> <kbd>s</kbd> <kbd>s</kbd></td><td class="desc">Search (the telescope entry point)</td></tr>
+        <tr><td class="k"><kbd>Space</kbd> <kbd>s</kbd> <kbd>f</kbd></td><td class="desc">Find files (fuzzy)</td></tr>
+        <tr><td class="k"><kbd>Space</kbd> <kbd>s</kbd> <kbd>g</kbd></td><td class="desc">Live grep across the project</td></tr>
+        <tr><td class="k">arrows / <kbd>Enter</kbd></td><td class="desc">Move through results &amp; open</td></tr>
+      </table>
+      <p class="note">In the video the find/search prefix was remapped from <kbd>f</kbd> to <kbd>s</kbd> ("s for search").</p>
+    </div>
+
+    <div class="card">
+      <h2>Lint &amp; Format (LSP / code actions)</h2>
+      <table>
+        <tr><td class="k"><kbd>Space</kbd> <kbd>c</kbd> <kbd>f</kbd></td><td class="desc">Format + auto-fix lint on the file</td></tr>
+        <tr><td class="k"><kbd>Space</kbd> <kbd>c</kbd> <kbd>a</kbd></td><td class="desc">Code action (apply LSP fix)</td></tr>
+        <tr><td class="k"><kbd>:command format disable</kbd></td><td class="desc">Toggle inline diagnostics off</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Essential Vim Movement</h2>
+      <table>
+        <tr><td class="k"><kbd>h</kbd> <kbd>j</kbd> <kbd>k</kbd> <kbd>l</kbd></td><td class="desc">left / down / up / right</td></tr>
+        <tr><td class="k"><kbd>i</kbd> / <kbd>Esc</kbd></td><td class="desc">insert mode / back to normal</td></tr>
+        <tr><td class="k"><kbd>d</kbd><kbd>w</kbd> · <kbd>d</kbd><kbd>d</kbd></td><td class="desc">delete word · delete line</td></tr>
+        <tr><td class="k"><kbd>u</kbd> · <kbd>Ctrl</kbd>+<kbd>r</kbd></td><td class="desc">undo · redo</td></tr>
+        <tr><td class="k"><kbd>:w</kbd> · <kbd>:q</kbd></td><td class="desc">save · quit</td></tr>
+      </table>
+    </div>
+
+  </div>
+
+  <footer>
+    Generated companion to the StemFoxIO video <em>"I Ditched Xcode for Neovim — and Let Claude Set It All Up."</em>
+    Regenerate your own with the prompt in <a href="PROMPTS.md">PROMPTS.md</a>, step 7.
+  </footer>
+</body>
+</html>
